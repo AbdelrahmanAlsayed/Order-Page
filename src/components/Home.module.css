@@ -1,0 +1,17 @@
+.bg {
+    background-color: #f9fcff;
+    min-height: 130vh;
+    margin: 60px 0;
+}
+
+.content {
+    display: flex;
+    box-shadow: 0 0 10px 0 rgba(0 , 0 , 0 , 0.2);
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+}
+

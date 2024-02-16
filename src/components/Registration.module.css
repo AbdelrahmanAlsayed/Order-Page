@@ -1,0 +1,126 @@
+.bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 60%;
+}
+
+.form {
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 60%;
+    margin: 40px 20px;
+}
+
+.mainHeading {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.subHeading {
+    font-size: .8rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.formGroup label {
+    font-size: 12px;
+    color: #B6BBC4;
+    display: block;
+    margin: 25px 0 10px;
+    letter-spacing: 1px;
+}
+
+.formGroup label span {
+    color: #3D3B40;
+}
+
+.preInputGroup, .preInputGroupS, .preInputGroupPhone {
+    display: flex;
+    align-items: center;
+}
+
+.preInputGroupPhone  {
+    background-color: #f5f7f9;
+    padding-left: 10px;
+}
+
+.input, .specialInput {
+    background-color: #f5f7f9;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.input:focus , .specialInput:focus{
+    outline: none;
+}
+
+.inputGroup {
+    position: relative;
+}
+
+.flag {
+    height: 20px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.flagSmall {
+    height: 18px;
+    width: 25px;
+}
+
+.options {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    border: 1px solid #cbd3da;
+    border-radius: 5px;
+    max-height: 50vh;
+    overflow-y: scroll;
+    display: none;
+    background-color: #fff; 
+    z-index: 99;
+}
+
+.option {
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.option:hover {
+    background-color: #e9ecef;
+}
+
+.payment input {
+    margin-right: 10px;
+}
+
+.lastMsg {
+    color: #B6BBC4;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+.specialInput {
+    margin-bottom: 4px;
+}
+
+.preInputGroupS input {
+    margin-right: 25px;
+}
+
+.preInputGroupS {
+    margin-bottom: 10px;
+}

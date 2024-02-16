@@ -1,0 +1,67 @@
+.bg {
+    background-color: #fff; 
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.5); 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.countries {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.flagButton {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flag {
+    height: 20px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.flagSmall {
+    height: 18px;
+    width: 25px;
+}
+
+.options {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    border: 1px solid #cbd3da;
+    border-radius: 5px;
+    max-height: 50vh;
+    overflow-y: scroll;
+    display: none;
+    background-color: #fff; 
+    z-index: 99;
+}
+
+.option {
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.option:hover {
+    background-color: #e9ecef;
+}
+
+.countryName {
+    font-size: 15px;
+}
