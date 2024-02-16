@@ -25,7 +25,7 @@ This task involves recreating a UI similar to GoStudent's order page, utilizing 
 
 ### Screenshot
 
-![chat app Screenshot](Screenshot.png)
+![Order page](Screenshot.png)
 
 ### Links
 
